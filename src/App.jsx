@@ -4,8 +4,6 @@ import { keys } from "./utils/keys";
 function App() {
   const [audioName, setAudioName] = useState("");
 
-  // let audio;
-
   const playAudioOnClick = (e, url) => {
     const audio = new Audio(url);
     audio.play();
@@ -21,12 +19,6 @@ function App() {
     audio.play();
     setAudioName(pressedKey?.audioName);
   };
-
-  //   onKeyUp={(event) => {
-  //     if (event.key === "Backspace") {
-  //         handleKeyup(event);
-  //     }
-  // }}
 
   return (
     <div>
@@ -47,15 +39,3 @@ function App() {
 }
 
 export default App;
-
-// {keys.map((key) => {
-//         return (
-//             <button
-//               key={key.id}
-//               onClick={(e) => playAudioOnClick(e, key.audioUrl)}
-//               onKeyDown={(e) => playAudioOnKeyDown(e)}
-//             >
-//               {key.key}
-//             </button>
-//         )
-//       <p>{audioName}</p>
