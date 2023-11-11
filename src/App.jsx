@@ -59,7 +59,7 @@ function App() {
                   setIsOn(!isOn);
                   setAudioName("");
                 }}
-                style={{ backgroundColor: "#06d6a0" }}
+                style={{ backgroundColor: "#1E641E" }}
               >
                 {isOn && "on"}
               </button>
@@ -102,7 +102,7 @@ function App() {
               <p>Power</p>
               <button
                 onClick={() => setIsOn(!isOn)}
-                style={{ backgroundColor: "#ef476f" }}
+                style={{ backgroundColor: "#B22222" }}
               >
                 {isOn || "off"}
               </button>

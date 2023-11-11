@@ -46,6 +46,15 @@ main {
   font-size: 1.5rem;
 }
 
+.keys button:hover {
+  box-shadow: 3px 3px rgb(145, 54, 197);
+}
+
+.keys button:active {
+  background-color: black;
+  color: rgb(255, 175, 204);
+}
+
 .controls {
   display: flex;
   flex-direction: column;
@@ -70,6 +79,10 @@ main {
   font-size: 0.9rem;
   font-weight: bold;
   cursor: pointer;
+}
+
+.power button:hover {
+  box-shadow: 3px 3px 3px slateblue;
 }
 
 .audio-name {
