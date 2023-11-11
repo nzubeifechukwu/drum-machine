@@ -123,7 +123,11 @@ function App() {
           </section>
         </main>
         <footer>
-          <a href="https://github.com/nzubeifechukwu/drum-machine">
+          <a
+            href="https://github.com/nzubeifechukwu/drum-machine"
+            target="_blank"
+            rel="noreferrer"
+          >
             &copy; Nzube Ifechukwu
           </a>
         </footer>
