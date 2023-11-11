@@ -1,8 +1,23 @@
-# React + Vite
+# Drum Machine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Drum machine is a web app that plays a tune on button click. There are many buttons, each which plays a different tune.
 
-Currently, two official plugins are available:
+The [app is live here](https://nzubeifechukwu-markdown-previewer.netlify.app/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+Drum machine is a React app. To install and run it locally, clone the repo and run:
+
+```
+cd markdown-previewer
+npm install
+npm run dev
+```
+
+## Inspiration
+
+The idea for this project came from freeCodeCamp's [Frontend Development Libraries Certification](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-drum-machine).
+
+## Author
+
+**Nzube Ifechukwu:** [LinkedIn](https://linkedin.com/in/nzubeifechukwu), [Twitter](https://twitter.com/NzubeIfechukwu)
